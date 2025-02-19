@@ -36,6 +36,11 @@ public class VacuumAir implements ModInitializer {
 		return Registry.register(Registries.ITEM, registryKey.getValue(), new Item(new Item.Settings().registryKey(registryKey)));
 	}
 
+	public static Item registerWatchItem(String name) {
+		RegistryKey<Item> registryKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, name));
+		return Registry.register(Registries.ITEM, registryKey.getValue(), new WatchItem(new Item.Settings().registryKey(registryKey)));
+	}
+
 	public static Block registerBlock(String name) {
 		RegistryKey<Block> registryKey = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, name));
 
@@ -63,7 +68,7 @@ public class VacuumAir implements ModInitializer {
 	public static final Item AIR_BOTTLE = registerFoodItem("air_bottle", AIR_BOTTLE_FOOD);
 	public static final Item COMPRESSED_AIR_BOTTLE = registerFoodWithEffectItem("compressed_air_bottle", AIR_BOTTLE_FOOD, LEVITATION_EFFECT);
 
-	public static final Item APPLE_WATCH = registerItem("apple_watch");
+	public static final Item APPLE_WATCH = registerWatchItem("apple_watch");
 
 	public static final Block MICROSOFT_SURFACE = registerBlock("microsoft_surface");
 
