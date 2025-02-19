@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "vacuum_air:air_bottle",
+    "vacuum_air:vacuum_air"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vacuum_air:compressed_air_bottle"
+  }
+}

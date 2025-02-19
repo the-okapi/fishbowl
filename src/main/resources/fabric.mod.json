@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "vacuum_air",
+	"version": "${version}",
+	"name": "Fish Bowl Ideas",
+	"description": "Add air to make air!",
+	"authors": [
+		"theOkapi"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/vacuum_air/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.theokapi.vacuum_air.VacuumAir"
+		],
+		"fabric-datagen": [
+			"com.theokapi.vacuum_air.VacuumAirDataGenerator"
+		]
+	},
+	"mixins": [
+		"vacuum_air.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

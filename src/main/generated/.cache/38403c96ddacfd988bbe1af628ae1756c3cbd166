@@ -1,0 +1,11 @@
+// 1.21.4	-999999999-01-01T00:00:00	Fish Bowl Ideas/RecipeProvider
+5787c0bdc532052fda581690c750bd0d0f466144 data/vacuum_air/advancement/recipes/misc/air_bottle.json
+a9d198c6bf13fe07711de88a93c722a8c2151280 data/vacuum_air/advancement/recipes/misc/apple_watch.json
+e770b802a443c941f53fdead6d6e104fcaf8abfa data/vacuum_air/advancement/recipes/misc/compressed_air_bottle.json
+b8c58be00de369f2dcc2f2a06e100a9f7de69f82 data/vacuum_air/advancement/recipes/misc/microsoft_surface.json
+61ba9c05fd26c233a26bc228a9a2a52d6be19052 data/vacuum_air/advancement/recipes/misc/vacuum_air.json
+d234488c875bdf3880c8cd9fb7754c5b86f54f4a data/vacuum_air/recipe/air_bottle.json
+b265c7b75c3089241165d60a2c7e529352c676d4 data/vacuum_air/recipe/apple_watch.json
+612c51b616f797f7bf7b315780f43218077e9a20 data/vacuum_air/recipe/compressed_air_bottle.json
+161c59155b8e8e2b30845342d51e2d44684a9c9a data/vacuum_air/recipe/microsoft_surface.json
+8f1341c2629528356ba70eb35f0122630d5afaec data/vacuum_air/recipe/vacuum_air.json

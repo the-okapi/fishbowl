@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vacuum_air:block/microsoft_surface"
+    }
+  }
+}
